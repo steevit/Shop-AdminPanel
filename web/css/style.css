@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-05-12, 06:45:44
+    Author     : steev
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #2F3336;
+    color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+#log
+{
+    width: 400px; 
+    margin: 0 auto; 
+    margin-top: 150px;
+    padding: 15px 0 0;
+    background: #fff;
+    border: 1px solid silver;
+    font: 16px calibri;
+    letter-spacing: -1px;
+    -webkit-box-shadow: 0 0 2px silver; 
+    -moz-box-shadow: 0 0 2px silver; 
+    box-shadow: 0 0 2px silver;
+}
+
+label
+{
+    display: block;
+    width: 260px;
+    padding: 10px 20px;
+    color: #696969;
+    font-size: 16px;
+    text-shadow: 0 0 1px silver;
+}
+
+#un, #pw, #name, #cat, #price, #quan {
+display: block;
+width: 360px; 
+margin: 0 auto;
+padding: 10px 5px;
+border: 1px solid silver;
+outline: 5px solid #ebebeb;
+font-size: 22px;
+}
+#un:focus, #pw:focus, #name:focus, #cat:focus, #price:focus, #quan:focus {
+outline: 5px solid #e5f2f8;
+}
+
+#lower {
+background: #ecf2f5;
+width: 360px;
+padding: 5px 20px;
+margin-top: 20px;
+}
+
+input[type="submit"] {
+width: 70px;
+padding: 5px 13px;
+border: 1px solid #005f85;
+color: white;
+text-shadow: 0 0 1px black;
+background: #98c9dc;
+position: relative;
+}
+
+#header
+{
+    margin: 0;
+    background-color: #191d21;
+    min-height: 150px;
+}
+
+#header > h1
+{
+    font-size: 44px;
+    font-weight: 700;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#panel
+{
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#usun
+{
+    width: 500px;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 40px;
+    background-color: #191d21;
+    color: #39a5f1;
+}
+
+#info
+{
+    margin-right: 10px;
+    text-align: right;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #4F5558}
+
+tr:hover {background-color: #1E2225}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#dodaj
+{
+    width: 150px;
+    border: 1px solid #005f85;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #98c9dc;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#wyloguj
+{
+    width: 150px;
+    border: 1px solid #005f85;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #98c9dc;
+    text-align: center;
+    margin-left: auto; 
+}
